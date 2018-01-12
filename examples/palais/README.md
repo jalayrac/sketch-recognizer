@@ -1,3 +1,31 @@
-# Palais de la découverte
+# Palais de la découverte
 
-Some details about our solution.
+This code is used in an exhibition at [Palais de la découverte](http://www.palais-decouverte.fr/en/home/), a french science museum in Paris.
+
+The goal is to introduce people to the concept of Machine Learning.
+The module consists of two machines that communicates trough request (using [socket](https://en.wikipedia.org/wiki/Network_socket))
+- a machine A where people can draw with a touchpad with a nice interface
+- a machine B that receives request from A containing drawings, process the drawing to give class prediction and send response back to A.
+
+## Requirements
+
+Apart from following the installation requirements fo sketch-recognizer, you might need to install additional python libraries (cStringIO, [Pillow](https://pypi.python.org/pypi/Pillow/2.2.1), ...)
+
+Don't forget to edit in `server.py` the location to your caffe installation folder and also select cpu mode or gpu mode (cpu by default).
+
+## Demo
+
+Run in one terminal:
+
+```Shell
+python server.py
+```
+
+And in another you can send request, an example is given:
+
+```Shell
+python client.py
+```
+
+
+
