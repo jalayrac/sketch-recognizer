@@ -20,7 +20,7 @@ import numpy as np
 import sys
 import time
 
-# EDIT HERE: specify your caffe location.
+# EDIT HERE: specify your caffe location.
 caffe_root = "/home/jalayrac/src/caffe"
 sys.path.insert(0, caffe_root+'/python')
 import caffe
