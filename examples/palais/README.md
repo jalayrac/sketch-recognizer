@@ -27,5 +27,10 @@ And in another you can send request, an example is given:
 python client.py
 ```
 
+If everything works fine, you should expect the following output (in the client terminal):
 
-
+```Shell
+Connection on 4004
+[u'zebra', u'tiger', u'horse', u'cow', u'panda']
+[0.9689204692840576, 0.031034501269459724, 1.9258541215094738e-05, 1.3325379768502899e-05, 6.308453976089368e-06]
+```
