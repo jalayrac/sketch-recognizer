@@ -5,7 +5,7 @@ Created by Jean-Baptiste Alayrac at INRIA.
 
 ## License
 
-This code is released under the MIT License (refer to the [LICENSE](https://github.com/jalayrac/sketch-recognizer/LICENSE) file for details).
+This code is released under the MIT License (refer to the [LICENSE](https://github.com/jalayrac/sketch-recognizer/blob/master/LICENSE) file for details).
 
 ## Contents
 
