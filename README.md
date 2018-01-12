@@ -67,6 +67,8 @@ export LD_LIBRARY_PATH=/usr/cuda-8.0/lib64/:$LD_LIBRARY_PATH
   sample_5.png: eiffel-tower (0.997), skyscraper (0.00), tent (0.00), chandelier (0.00), sword (0.00) (served in 0.041 s)
   ```
   
+  **NB**: the timings have been obtained in GPU mode with a GTX1080. If you run in CPU mode, the inference on my machine was closer to 1s per image.
+  
 5) Run on your own images.
 
 To run on your own images, simply creates a free form drawing (with tools such as [this one](https://drawisland.com/?w=400&h=400)), 
