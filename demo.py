@@ -2,7 +2,7 @@
 import numpy as np
 import os
 import sys
-
+# EDIT HERE: specify your caffe location.
 caffe_root = "/home/jalayrac/src/caffe"
 sys.path.insert(0, caffe_root+'/python')
 import caffe
@@ -11,8 +11,9 @@ import time
 
 PRETRAINED_FILE = './models/finetune_googledraw_iter_360000.caffemodel'
 sketch_pred_model = './models/googlenet_deploy.prototxt'
-# load the model
-caffe.set_mode_gpu()
+
+# Set CPU/GPU mode (replace by caffe.set_mode_gpu() for GPU usage).
+caffe.set_mode_cpu()
 sketch_net_pred = caffe.Net(sketch_pred_model, PRETRAINED_FILE, caffe.TEST)
 
 output_layer_pred = 'loss3/classifier_s'

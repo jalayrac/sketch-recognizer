@@ -4,7 +4,7 @@ Simple web server for recognizing drawings (with web server code from [here](htt
 
 ## Usage
 
-Follow installation instructions in sketch-recognizer. 
+Follow installation instructions in sketch-recognizer (don't forget to edit your caffe location in `run_server.py`). 
 Then run:
 
 ```python

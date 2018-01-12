@@ -8,11 +8,6 @@ and HEAD requests in a fairly straightforward manner.
 """
 
 
-__version__ = "0.1"
-__all__ = ["SimpleHTTPRequestHandler"]
-__author__ = "bones7456"
-__home_page__ = "http://li2z.cn/"
-
 import os
 import posixpath
 import BaseHTTPServer
@@ -22,23 +17,30 @@ import shutil
 import mimetypes
 import re
 import numpy as np
-from pylab import *
-import os
 import sys
+import time
+
+# EDIT HERE: specify your caffe location.
 caffe_root = "/home/jalayrac/src/caffe"
 sys.path.insert(0, caffe_root+'/python')
 import caffe
-import time
+
 
 try:
     from cStringIO import StringIO
 except ImportError:
     from StringIO import StringIO
 
+__version__ = "0.1"
+__all__ = ["SimpleHTTPRequestHandler"]
+__author__ = "bones7456"
+__home_page__ = "http://li2z.cn/"
+
 
 PRETRAINED_FILE = '../../models/finetune_googledraw_iter_360000.caffemodel'
 sketch_pred_model = '../../models/googlenet_deploy.prototxt'
-# load the model
+
+# Set cpu/gpu mode (replace by caffe.set_mode_gpu() for GPU).
 caffe.set_mode_cpu()
 sketch_net_pred = caffe.Net(sketch_pred_model, PRETRAINED_FILE, caffe.TEST)
 
