@@ -81,9 +81,9 @@ save it in png on your computer, and simply type (with the correct path to your 
 - Palais de la découverte: 
 This code has been originally developped for a permanent [exhibition](http://www.palais-decouverte.fr/fr/au-programme/expositions-permanentes/informatique-et-sciences-du-numerique/visite-libre/) in the museum
 [Palais de la découverte](http://www.palais-decouverte.fr/en/home/) in Paris.
-More specific code used for that project is provided [here](https://github.com/jalayrac/sketch-recognizer/examples/palais/).
+More specific code used for that project is provided [here](https://github.com/jalayrac/sketch-recognizer/tree/master/examples/palais/).
 
-- Small web server: see [here](https://github.com/jalayrac/sketch-recognizer/examples/web_server) for an interactive web server that recognize uploaded drawings.
+- Small web server: see [here](https://github.com/jalayrac/sketch-recognizer/tree/master/examples/web_server/) for an interactive web server that recognize uploaded drawings.
 
 If you happen to use it for your project, please [let me know!](mailto:jean-baptiste.alayrac@inria.fr)
 
