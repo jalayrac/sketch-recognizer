@@ -54,7 +54,7 @@ export LD_LIBRARY_PATH=/usr/cuda-8.0/lib64/:$LD_LIBRARY_PATH
 4) Run the demo.
 
   ```Shell
-  python samples/*.png
+  python demo.py samples/*.png
   ```
   
   If everything is setup correctly, you should see the following predictions (after some init messages from caffe):
