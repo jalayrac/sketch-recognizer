@@ -3,6 +3,8 @@
 A simple yet accurate sketch recognizer.
 Created by Jean-Baptiste Alayrac at INRIA.
 
+![alt text](demo.gif)
+
 ## License
 
 This code is released under the MIT License (refer to the [LICENSE](https://github.com/jalayrac/sketch-recognizer/blob/master/LICENSE) file for details).
