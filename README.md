@@ -77,7 +77,7 @@ To run on your own images, simply creates a free form drawing (with tools such a
 save it in png on your computer, and simply type (with the correct path to your drawing):
 
 ```Shell
-  python /path/to/my/drawing.png
+  python demo.py /path/to/my/drawing.png
 ```
   
 ## Projects using this code
